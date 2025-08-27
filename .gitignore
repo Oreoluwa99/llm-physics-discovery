@@ -1,7 +1,19 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
-.DS_Store
-.env
-.env.*
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
 *.ipynb_checkpoints/
+
+# Data/figs (only commit final curated results)
+*.csv
+*.json
+*.png
+*.pdf
+
+# System
+.DS_Store
